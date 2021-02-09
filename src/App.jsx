@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { ColorfullMessage } from "./components/ColorfullMessage";
 
 const App = () => {
-  console.log("さいしょ");
   // ステートを変更した時やpropsを渡した時に、再レンダリングされるreactの仕組み
   // １つめは変数名、2つ目はstateを更新していく関数名、初期値の設定
   const [num, setNum] = useState(0);
